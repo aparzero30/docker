@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+
+
+<style>
+
+    body {
+        background-color: #36393f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        font-family: "Poppins", sans-serif;
+        color: white;
+        overflow: hidden;
+        gap: 2vw;
+    }
+
+    .material-symbols-outlined{
+        font-size: 3vw;
+        cursor: pointer;
+    }
+
+    body div{
+        height: 20vh;
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .create{
+        background-color: #587b5e;
+    }
+    .read{
+        background-color: cornflowerblue;
+    }
+
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+
+    label{
+        font-size: 1vw;
+        cursor: pointer;
+    }
+
+</style>
+<body>
+<a href="http://localhost:8080/addTaskPage">
+    <div class="create">
+
+        <span class="material-symbols-outlined">add_circle</span>
+        <label>Create Task</label>
+    </div>
+</a>
+
+<a href="http://localhost:8080/allTasks">
+<div class="read">
+
+    <span class="material-symbols-outlined">menu_book</span>
+    <label>View Tasks</label>
+    <label>Update/Delete</label>
+</div>
+</a>
+
+
+
+
+</body>
+</html>

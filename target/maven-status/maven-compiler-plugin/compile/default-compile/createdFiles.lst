@@ -1,0 +1,5 @@
+com\example\E16\Spring\Boot\Activity\E16SpringBootActivityApplication.class
+com\example\E16\Spring\Boot\Activity\entity\Task.class
+com\example\E16\Spring\Boot\Activity\repository\TaskRepository.class
+com\example\E16\Spring\Boot\Activity\services\TaskService.class
+com\example\E16\Spring\Boot\Activity\controller\TaskController.class
